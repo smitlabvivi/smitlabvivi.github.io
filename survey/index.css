@@ -1,0 +1,186 @@
+div[data-name="s1"], div[data-name="s2"],div[data-name="s3"],div[data-name="s4"],div[data-name="s5"] {
+    border-radius: calc(0.5 * var(--base-unit, 8px));
+    box-sizing: border-box;
+    padding-left: var(--sd-base-padding);
+    padding-right: var(--sd-base-padding);
+    padding-bottom: var(--sd-base-vertical-padding);
+    background: var(--background, #fff);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 15%);
+    padding-top: var(--sd-base-vertical-padding);
+}
+.sd-body--responsive .sd-page {
+    padding: calc(1 * var(--base-unit, 8px)) var(--sd-page-vertical-padding) calc(2 * var(--base-unit, 8px));
+}
+div.sd-progress-buttons__container-center {
+  position: fixed;
+  top: 0px;
+  background-color: #f4f4f4;
+  width: 100%;
+  z-index: 999;
+  padding-bottom: 9px;
+}
+.sd-progress-buttons__list li {
+    padding: 14px 2px;
+    max-height: 91px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.sd-progress-buttons__page-title {
+    font-size: 10px;
+    line-height: 120%;
+}
+.sd-progress-buttons__list .sd-progress-buttons__list-element--current, .sd-progress-buttons__list .sd-progress-buttons__list-element--passed {
+    border-top: 2px solid var(--primary, #19b394);
+    border-bottom: 2px solid var(--primary, #19b394);
+}
+.sd-body.sd-body--responsive {
+    position: fixed;
+    top:68px;
+    bottom: 0px;
+    overflow: auto;
+}
+.sd-body.sd-body--responsive::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+}
+
+#sp_100 > div.sd-page.sd-body__page {
+  padding-top: 0px;
+}
+
+.introti h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0.7em;
+}
+.introscroll {
+    border-bottom: 1px solid #19b394;
+    padding: 0 6px 8px 6px;
+}
+.introscroll p {
+    line-height:1.45;
+    margin-bottom:0px;
+    margin-top:6px;
+    text-align:left;
+    text-indent: 26px;
+}
+
+div.introscroll > p:nth-child(1) {
+  margin-top: 0px;
+  margin-left: -6px;
+  text-indent: 0px;
+}
+table.sd-table.sd-matrix__table.sd-table--align-middle {
+    table-layout: fixed;
+}
+
+th.sd-table__cell.sd-table__cell--header {
+  vertical-align: middle;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.sd-description {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+[aria-label*="qestst"] {
+  margin-bottom: -10px;
+  display: block;
+}
+span.qestst {
+    display: block;
+    margin-bottom: 18px;
+    font-size: calc(2 * var(--base-unit, 8px));
+}
+
+.svc-logic-question-value > .sd-question__erbox--outside-question, .sd-element--with-frame:not(.sd-element--collapsed) > .sd-question__erbox--outside-question {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+
+.sd-question__erbox{
+  color: red;
+  font-weight: bold;
+}
+
+span[data-bind="text:completedStateText"] {
+  display: inline;
+  vertical-align: sub;
+}
+
+.sd-rating__item-text.sd-rating__item-text.sd-rating__min-text, .sd-rating__item-text.sd-rating__item-text.sd-rating__max-text {
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.sd-rating__item-text.sd-rating__item-text.sd-rating__min-text {
+  text-align: right;
+    font-size: 12px;
+    line-height: 100%;
+    color: black;
+}
+.sd-rating__item-text.sd-rating__item-text.sd-rating__max-text {
+  justify-content: left; 
+  font-size: 12px;
+  line-height: 100%;
+  color: black;
+}
+
+.sd-completedpage h3 {
+    font-size: min(max(18px, 5vw), 30px);
+}
+
+.completedtextst {
+    margin-top: -90px;
+    min-width: 200px;
+}
+
+.sd-completedpage {
+    height: 300px;
+    padding: 0px 38px 0px 38px;
+    border-top: 3px solid #1ab394;
+    border-bottom: 1px solid #1ab394;
+    position: absolute;
+    align-items: center;
+}
+.sorrytext {
+    background-color: #f4f4f4;
+    height: 288px;
+    min-width: 200px;
+    margin-top: -100px;
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+    z-index: 99;
+    position: absolute;
+}
+
+.sorrytext > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.save-data-class {
+    font-size: min(max(18px, 4vw), 26px);
+    min-width: 200px;
+    padding-left: 38px;
+    padding-right: 38px;
+    position: absolute;
+    top: 190px;
+}
+
+#sp_100 > div > div:nth-last-child(-n+2) {
+  display: none;
+}
+#sp_100 > div > div:nth-child(1) {
+  display: none;
+}
+
