@@ -149,7 +149,6 @@ span[data-bind="text:completedStateText"] {
     border-top: 3px solid #1ab394;
     border-bottom: 1px solid #1ab394;
     position: absolute;
-    z-index: 99;
     align-items: center;
 }
 .sorrytext {
@@ -160,6 +159,8 @@ span[data-bind="text:completedStateText"] {
     text-align: center;
     display: table;
     vertical-align: middle;
+    z-index: 99;
+    position: absolute;
 }
 
 .sorrytext > div {
